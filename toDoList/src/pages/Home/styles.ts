@@ -19,6 +19,10 @@ export const BoxInput = styled.div `
    }
 `
 
+export const BoxTask = styled.div `
+  
+`
+
 // export const Main = styled.main `
 //     display: flex;
 //     flex-direction: column;

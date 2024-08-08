@@ -4,9 +4,11 @@
 // import { BoxForm, Header, Input, Main } from "./styles"
 
 import { ButtonContent } from "../../components/button/style"
+import EmptyTask from "../../components/EmptyTask/EmptyTask"
 import Header from "../../components/header/Header"
 import { InputContent } from "../../components/input/style"
-import { BoxInput, Section } from "./styles"
+import TasksCreated from "../../components/tasksCreated/TasksCreated"
+import { BoxInput, BoxTask, Section } from "./styles"
 import { PlusCircle } from "phosphor-react"
 
 const Home = () => {
@@ -24,6 +26,15 @@ const Home = () => {
             <PlusCircle size={16} color="#f2f2f2" weight="bold"/>
           </ButtonContent>
         </BoxInput>
+
+        <BoxTask>
+          <TasksCreated/>
+
+          <div>
+            <EmptyTask/>
+          </div>
+
+        </BoxTask>
       </Section>
     </div>
   )
