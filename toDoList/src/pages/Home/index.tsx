@@ -4,7 +4,7 @@
 // import { BoxForm, Header, Input, Main } from "./styles"
 
 import { ButtonContent } from "../../components/button/style"
-import EmptyTask from "../../components/EmptyTask/EmptyTask"
+// import EmptyTask from "../../components/EmptyTask/EmptyTask"
 import Header from "../../components/header/Header"
 import { InputContent } from "../../components/input/style"
 import TasksCreated from "../../components/tasksCreated/TasksCreated"
@@ -31,7 +31,7 @@ const Home = () => {
           <TasksCreated/>
 
           <div>
-            <EmptyTask/>
+            {/* <EmptyTask/> */}
           </div>
 
         </BoxTask>
